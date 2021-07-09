@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WoyDLAPy+aUVVw1W3ATuUsEZDEgbH6SrU+jZHLJdyGO9o56qMEL2nrxtC/VXlRupRBYlucrsDY5Oo4Ssrkiw4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikit\\source\\repos\\XMLJSON\\XMLJSON\\XMLJSON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft-windowsapicodepack-core\\1.1.4\\microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft-windowsapicodepack-shell\\1.1.4\\microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft-windowsapicodepack-shellextensions\\1.1.4\\microsoft-windowsapicodepack-shellextensions.1.1.4.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -21,7 +21,6 @@ namespace XMLJSON.Deserializers.Xml
                 result = (XmlRoot)serializer.Deserialize(reader);
              }
             return (XmlRoot)result;
-
         }
     }
 }

@@ -24,7 +24,6 @@ namespace XMLJSON
         private CommonOpenFileDialog openDirectoryDialog;
         private string directoryPath;
         private StreamReader streamReader;
-        private Root root;
 
         public MainWindow()
         {
@@ -91,8 +90,6 @@ namespace XMLJSON
                 }
                 myTextBlockResult.Text = resultStringBuilder.ToString();
                 resultStringBuilder.Clear();
-                
-                
             }
         }
     }

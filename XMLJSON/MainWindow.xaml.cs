@@ -7,7 +7,6 @@ using XMLJSON.Deserializers.Json;
 using XMLJSON.Deserializers.Xml;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.IO;
-using System;
 using System.Linq;
 
 namespace XMLJSON
@@ -88,7 +87,7 @@ namespace XMLJSON
                 StringBuilder resultStringBuilder = new StringBuilder();
                 foreach(string s in myDictionary.Keys)
                 {
-                    resultStringBuilder.Append(s).Append("-").Append(maxValue).Append(" counts");
+                    resultStringBuilder.Append(s).Append("-").Append(maxValue).Append(" counts").Append("\n");
                 }
                 myTextBlockResult.Text = resultStringBuilder.ToString();
                 resultStringBuilder.Clear();

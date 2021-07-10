@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Xml.Serialization;
-using XMLJSON.Deserializers;
 
 namespace XMLJSON.Deserializers.Xml
 {
-	[XmlRoot(ElementName = "Values")]
+    [XmlRoot(ElementName = "Values")]
 	public class Values
 	{
 

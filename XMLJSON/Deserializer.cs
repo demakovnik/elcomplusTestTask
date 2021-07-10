@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace XMLJSON
+﻿namespace XMLJSON
 {
-    namespace Deserializers{
+    namespace Deserializers
+    {
         interface Deserializer
         {
             Root getDeserializedObject(string response);

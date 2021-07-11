@@ -47,22 +47,22 @@ namespace XMLJSON
 
         private void calculateButton_Click(object sender, RoutedEventArgs e)
         {
-            if (directoryPath != "") {
+            if (Directory.Exists(directoryPath)) {
                 var files = Directory.GetFiles(directoryPath);
                 StringBuilder stringBuilder = new StringBuilder();
-                string line;
+                string fileString;
                 List<string> resultList = new List<string>();
                 foreach(string file in files)
                 {
                     streamReader = new StreamReader(file);
-                    line = streamReader.ReadLine();
+                    fileString = streamReader.ReadLine();
                     //Continue to read until you reach end of file
-                    while (line != null)
+                    while (fileString != null)
                     {
                         //write the lie to console window
-                        stringBuilder.Append(line);
-                        //Read the next line
-                        line = streamReader.ReadLine();
+                        stringBuilder.Append(fileString);
+                        //Read the next fileString
+                        fileString = streamReader.ReadLine();
                     }
                     //close the file
                     streamReader.Close();
